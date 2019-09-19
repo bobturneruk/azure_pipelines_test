@@ -6,6 +6,5 @@ jobs:
   - job: Ubuntu_unit_test
     pool:
       vmImage: 'Ubuntu-16.04'
-
-steps: 
-  - script: echo 'Hello'
+    steps: 
+    - script: echo 'Hello'
