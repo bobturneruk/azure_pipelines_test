@@ -1,12 +1,11 @@
 triggers:
+- azure-pipelines
 - master
 
-pr:
-  branches:
-    - master
-    - dev 
+jobs:
+  - job: Ubuntu_unit_test
+  pool:
+    vmImage: 'Ubuntu-16.04'
 
-pool:
-  vmImage: 'Ubuntu-16.04'
-
-- script: echo 'Hello'
+steps:
+  - script: echo 'Hello'
