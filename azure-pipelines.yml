@@ -3,10 +3,11 @@ trigger:
 - master
 
 jobs:
+
   - job: Ubuntu_unit_test
+
   pool:
     vmImage: 'Ubuntu-16.04'
 
-steps:
-  
+steps: 
   - script: echo 'Hello'
