@@ -1,0 +1,12 @@
+triggers:
+- master
+
+pr:
+  branches:
+    - master
+    - dev 
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+- script: echo 'Hello'
