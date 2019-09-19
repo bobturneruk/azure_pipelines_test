@@ -1,4 +1,4 @@
-triggers:
+trigger:
 - azure-pipelines
 - master
 
@@ -8,4 +8,5 @@ jobs:
     vmImage: 'Ubuntu-16.04'
 
 steps:
+  
   - script: echo 'Hello'
